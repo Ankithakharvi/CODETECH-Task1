@@ -8,6 +8,7 @@
 - **Domain:** Web Development
 - **Duration:** June 15th - July 15th 2024
 - **Mentor:** Neela Santhosh Kumar
+
 This code is for a single-page weather application named UrWeather. Here's an overview of the project, including its objective
 
 
