@@ -14,6 +14,10 @@
 **Objective:**
 - Create a user-friendly web application (UrWeather) for accessing weather information.
 - Users can enter a city name and retrieve current weather and hourly forecasts.
+- <img width="447" alt="Screenshot 2024-07-15 145720" src="https://github.com/user-attachments/assets/5484989b-394e-4730-8422-705098442457">
+
+- <img width="514" alt="Screenshot 2024-07-15 145810" src="https://github.com/user-attachments/assets/f0b0f94d-566d-40aa-881f-8abc3d373c32">
+
 
 **Functionality:**
 - **Search Feature:** Users enter a city name and click "Search" to trigger weather lookup.
