@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -11,26 +11,26 @@
     <div class="search">
       <input type="text" id="city-input" placeholder="Enter City Name" spellcheck="false">
       <button id="search-button">
-        <img src="C:\internship\codetech\s.png" alt="Search">
+        <img src="images/s.png" alt="Search">
       </button>
     </div>
     <div class="error" style="display: none;">
       <p>Invalid city name</p>
     </div>
     <div class="weather" style="display: none;">
-      <img src="C:\internship\codetech\rain.png" class="weather-icon" alt="Weather Icon">
+      <img src="images/rain.png" class="weather-icon" alt="Weather Icon">
       <h1 class="temp">--<sup>°C</sup></h1>
       <h2 class="city">Loading...</h2>
       <div class="details">
         <div class="col">
-          <img src="C:\internship\codetech\humidity.png" />
+          <img src="images/humidity.png" />
           <div>
             <p class="humidity">50%</p>
             <p>Humidity</p>
           </div>
         </div>
         <div class="col">
-          <img src="C:\internship\codetech\wind.png" />
+          <img src="images/wind.png" />
           <div>
             <p class="wind">15km/h</p>
             <p>Wind speed</p>
@@ -61,23 +61,23 @@
         document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
         document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
-       /* switch (data.weather[0].main.toLowerCase()) {
+       switch (data.weather[0].main.toLowerCase()) {
           case "clouds":
-            weatherIcon.src = "C:\internship\codetech\clouds.png";
+            weatherIcon.src ="images/clouds.png";
             break;
           case "rain":
-            weatherIcon.src = "C:\internship\codetech\rain.png";
+            weatherIcon.src = "images/rain.png";
             break;
           case "drizzle":
-            weatherIcon.src = "C:\internship\codetech\drizzle.png";
+            weatherIcon.src = "images/drizzle.png";
             break;
           case "mist":
-            weatherIcon.src = "C:\internship\codetech\mist.png";
+            weatherIcon.src = "images/mist.png";
             break;
           default:
             weatherIcon.src = ""; // Handle other weather conditions if needed
             break;
-        }*/
+        }
 
         document.querySelector(".weather").style.display = "block";
         document.querySelector(".error").style.display = "none";
